@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/cikisIsim"
+        android:layout_width="294dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="65dp"
+        android:ems="10"
+        android:hint="İsminizi Giriniz"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#FF676262"
+        app:layout_constraintBottom_toTopOf="@+id/cikisSifre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cikisSifre"
+        android:layout_width="293dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="Şifrenizi Giriniz"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="#676262"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cikisIsim" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
